@@ -1,0 +1,13 @@
+./reader -f data/accounts50.bin -l 10 -d 3
+./reader -f data/accounts50.bin -l [17,23] -d 4
+./writer -f data/accounts50.bin -l 20 -v -10 -d 2
+./reader -f data/accounts50.bin -l 20 -d 3
+./writer -f data/accounts50.bin -l 10 -v 40 -d 2
+./reader -f data/accounts50.bin -l 16 -d 3
+./reader -f data/accounts50.bin -l [8,11] -d 3
+./reader -f data/accounts50.bin -l 20 -d 3
+./writer -f data/accounts50.bin -l 10 -v 50 -d 5
+./writer -f data/accounts50.bin -l 20 -v 30 -d 2
+./reader -f data/accounts50.bin -l 39 -d 3
+./reader -f data/accounts50.bin -l 20 -d 3
+./reader -f data/accounts50.bin -l 10 -d 3
